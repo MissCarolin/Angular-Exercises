@@ -1,0 +1,26 @@
+<button (click)="displayComponent = !displayComponent">displayComponent</button>
+<div>
+  <app-subjects *ngIf="displayComponent"></app-subjects>
+</div>
+
+<hr />
+
+<button (click)="displayComponent2 = !displayComponent2">
+  displayComponent2
+</button>
+<div>
+  <app-unsubscribe-take-until *ngIf="displayComponent2"></app-unsubscribe-take-until>
+</div>
+
+<hr />
+
+
+<button (click)="displayComponent3 = !displayComponent3">
+  displayComponent3
+</button>
+<div>
+  <app-unsubscribe-async *ngIf="displayComponent3"></app-unsubscribe-async>
+</div>
+
+
+<pre>{{ posts | json }}</pre>
