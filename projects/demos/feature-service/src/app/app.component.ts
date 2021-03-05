@@ -10,7 +10,6 @@ export class AppComponent {
   onChange = 'change';
 
 
-
   sendValueToComponent(val: any): void {
     this.onChange = val.target.value
   }

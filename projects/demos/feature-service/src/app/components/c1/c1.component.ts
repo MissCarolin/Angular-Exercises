@@ -1,3 +1,4 @@
+import { Observable } from 'rxjs';
 import { ExampleService } from './../../services/example.service';
 import { Component, OnInit } from '@angular/core';
 
